@@ -35,3 +35,8 @@ string[] FilterArray(string[] inputArray)
     }
     return result;
 }
+
+string[] result = FilterArray(inputArray);
+
+Console.WriteLine("Результат:");
+Console.WriteLine("[" + string.Join(", ", result) + "]");
